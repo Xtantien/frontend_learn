@@ -1,0 +1,74 @@
+div {
+    margin-bottom: 10px;
+    max-width: 1200px;
+    border-radius: 20px;
+}
+.container {
+    margin: 0 auto;
+}
+.photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.iam_container {
+    display: flex;
+    padding: 20px 10px 10px 10px;
+    background: #eeeeee;
+    justify-content: center;
+}
+
+.hobby {
+    background: #ece9d7;
+    padding: 10px;
+}
+.social {
+    background: #d4deec;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+.link:hover {
+    color: orange;
+}
+.connect_container {
+    background: #f3fcc4;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+.connect_name {
+    width: 50%;
+}
+.connect_email {
+    width: 50%;
+}
+.connect_message {
+    width: 100%;
+}
+.textplace {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline:none;
+    border-bottom: 1px solid #808181;
+}
+.send_btn {
+    margin: auto;
+}
+.send {
+    background: black;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+}
+.send:hover {
+    opacity: .8;
+}
