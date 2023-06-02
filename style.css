@@ -1,10 +1,13 @@
+body {
+    background: #dddddd;
+}
 div {
     margin-bottom: 10px;
     max-width: 1200px;
     border-radius: 20px;
 }
 .container {
-    margin: 0 auto;
+    margin: 50px auto;
     display: flex;
 }
 .photo {
@@ -16,17 +19,17 @@ div {
 .iam_container {
     display: flex;
     padding: 20px 10px 10px 10px;
-    background: #eeeeee;
+    /* background: #eeeeee; */
     justify-content: center;
 }
 
 .hobby {
     background: #ece9d7;
-    padding: 10px;
+    padding: 15px;
 }
 .social {
-    background: #d4deec;
-    padding: 10px;
+    background: #b6ccec;
+    padding: 15px;
     padding-bottom: 20px;
 }
 
@@ -39,8 +42,8 @@ div {
     color: orange;
 }
 .connect_container {
-    background: #f3fcc4;
-    padding: 10px;
+    background: #edfca5;
+    padding: 15px;
     width: 50%;
     margin: auto;
 }
